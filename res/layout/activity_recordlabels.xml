@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context=".Recordlabels" >
+
+            <TextView
+                android:id="@+id/txt_Recordlabeldata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="10"
+                android:text="@string/recordlabeldata" />
+            
+            <TextView
+                android:id="@+id/txt_Recordlabelsearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="10"
+                android:text="@string/recordlabelsearch" />
+
+            <Button
+                android:id="@+id/btn_Location"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLocation"
+                android:text="@string/location" />
+            <Button
+                android:id="@+id/btn_Founder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickFounder"
+                android:text="@string/founder" />
+            <Button
+                android:id="@+id/btn_Parent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickParentlabel"
+                android:text="@string/parentlabel" />
+            <Button
+                android:id="@+id/btn_Distributor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickDistributor"
+                android:text="@string/distributor" />                            
+            <Button
+                android:id="@+id/btn_Genre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickGenre"
+                android:text="@string/genre" />     
+            <Button
+                android:id="@+id/btn_Founded"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickFounded"
+                android:text="@string/founded" />  
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

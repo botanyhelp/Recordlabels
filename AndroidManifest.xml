@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jimsuplee.recordlabels"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/recordlabels"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jimsuplee.recordlabels.Recordlabels"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="Location"
+            android:name=".Location" >
+            <intent-filter >
+                <action android:name="com.jimsuplee.recordlabels.Location" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="Founder"
+            android:name=".Founder" >
+            <intent-filter >
+                <action android:name="com.jimsuplee.recordlabels.Founder" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="Parentlabel"
+            android:name=".Parentlabel" >
+            <intent-filter >
+                <action android:name="com.jimsuplee.recordlabels.Parentlabel" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="Distributor"
+            android:name=".Distributor" >
+            <intent-filter >
+                <action android:name="com.jimsuplee.recordlabels.Distributor" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>        
+        <activity
+            android:label="Genre"
+            android:name=".Genre" >
+            <intent-filter >
+                <action android:name="com.jimsuplee.recordlabels.Genre" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>         
+        <activity
+            android:label="Founded"
+            android:name=".Founded" >
+            <intent-filter >
+                <action android:name="com.jimsuplee.recordlabels.Founded" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+        <activity
+            android:label="Results"
+            android:name=".Results" >
+            <intent-filter >
+                <action android:name="com.jimsuplee.recordlabels.Results" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

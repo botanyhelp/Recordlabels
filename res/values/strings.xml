@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Record Labels</string>
+    <string name="action_settings">Settings</string>
+    <string name="recordlabeldata"></string>
+    <string name="recordlabelsearch"><b>Search Record Labels By</b></string>
+    <string name="location">Location</string>
+    <string name="founder">Founder</string>
+    <string name="parentlabel">Parent Label</string>
+    <string name="distributor">Distributor</string>
+    <string name="genre">Genre</string>
+    <string name="founded">Date Founded</string>
+</resources>
