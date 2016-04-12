@@ -58,6 +58,7 @@ INSERT INTO labels (label, founded, country, genre, name) VALUES ('Back_Beat_Rec
 ```
 
 Notice some things that need attention in this output:
+
 1. Not all records have values for every field. 
 2. Some record values have single-quotes inside single-quote delimited values.
 3. We don't have any good candiate fields to server as a unique key. 
