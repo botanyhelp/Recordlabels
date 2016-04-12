@@ -425,3 +425,5 @@ And to get Android to use our images, we edit AndroidManifest.xml
 ```{xml}
         android:icon="@drawable/recordlabels"
 ```
+Almost all of the data in this app is kindly shared by wikipedia authors under the license shown here:
+[https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)
