@@ -55,7 +55,7 @@ INSERT INTO labels (label, founded, distributor, parent, founder, genre, country
 INSERT INTO labels (label, founded, distributor, owners, name, url, genre, location) VALUES ('Below_Par_Records', '2000_in_music', '0: Thorn_EMI, 1: Virgin_Records', 'Jai Al-Attas<br>Mark Catanzariti<br>Matthew Hawkes', 'Below Par Records', 'http://belowpar.org', 'various', 'Darlinghurst,_New_South_Wales')
 
 INSERT INTO labels (label, founded, country, genre, name) VALUES ('Back_Beat_Records', '1957_in_music', 'United_States', 'soul_music', 'Back Beat Records')
-'''
+```
 
 Notice some things that need attention in this output:
 1. Not all records have values for every field. 
